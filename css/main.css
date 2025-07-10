@@ -1,0 +1,79 @@
+@import "./normalize.css";
+@import "./variables.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./footer.css";
+
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+  display: flex;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body2);
+  line-height: var(-- --lh-body2);
+  font-weight: 600;
+  background-color: var(--clr-midnight-green);
+  color: var(--clr-white);
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1 {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1210px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  padding: 0.9rem 3.3rem 1.1rem 3.2rem;
+  line-height: var(--lh-body2);
+  border-radius: 2.4rem;
+  border: 2px solid transparent;
+  transition: 0.5s;
+}
+
+.light-btn {
+  border-color: var(--clr-white);
+  color: var(--clr-white);
+  font-size: var(--fs-body1);
+}
+.light-btn:hover {
+  background-color: var(--clr-white);
+  color: var(--clr-dark-green);
+}

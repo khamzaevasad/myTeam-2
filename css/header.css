@@ -1,0 +1,28 @@
+.header {
+  padding-top: 7.3rem;
+  padding-bottom: 7.3rem;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.site__logo {
+  margin-left: 8rem;
+}
+.sitenav {
+  margin-right: auto;
+}
+.sitenav__list {
+  display: flex;
+  gap: 4rem;
+}
+.sitenav__item {
+}
+.sitenav__link {
+  color: inherit;
+  transition: 0.5s;
+}
+.sitenav__link:hover {
+  color: var(--clr-light-coral);
+}

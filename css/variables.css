@@ -1,0 +1,32 @@
+:root {
+  /* Primary Colors */
+  --clr-midnight-green: #014e56;
+  --clr-light-coral: #f67e7e;
+  --clr-white: #ffffff;
+
+  /* Secondary Colors */
+  --clr-rapture-blue: #79c8c7;
+  --clr-police-blue: #2c6269;
+  --clr-deep-jungle-green: #004047;
+  --clr-sacramento-state-green: #012f34;
+  --clr-dark-green: #002529;
+
+  /* Font Family */
+  --ff-primary: "Livvic", sans-serif;
+
+  /* Font Sizes (REM based on 62.5%) */
+  --fs-h1-large: 10rem; /* 100px */
+  --fs-h1-small: 6.4rem; /* 64px */
+  --fs-h2: 4.8rem; /* 48px */
+  --fs-h3: 1.8rem; /* 18px */
+  --fs-body1: 1.8rem; /* 18px */
+  --fs-body2: 1.5rem; /* 15px */
+
+  /* Line Heights */
+  --lh-h1-large: 10rem; /* 100px */
+  --lh-h1-small: 5.6rem; /* 56px */
+  --lh-h2: 4.8rem; /* 48px */
+  --lh-h3: 2.8rem; /* 28px */
+  --lh-body1: 1.5rem; /* 28px */
+  --lh-body2: 1.6rem; /* 25px */
+}
