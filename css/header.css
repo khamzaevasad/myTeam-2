@@ -17,8 +17,7 @@
   display: flex;
   gap: 4rem;
 }
-.sitenav__item {
-}
+
 .sitenav__link {
   color: inherit;
   transition: 0.5s;

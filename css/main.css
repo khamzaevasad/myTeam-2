@@ -77,3 +77,13 @@ h1 {
   background-color: var(--clr-white);
   color: var(--clr-dark-green);
 }
+
+.dark__btn {
+  border-color: var(--clr-sacramento-state-green);
+  color: var(--clr-sacramento-state-green);
+}
+
+.dark__btn:hover {
+  background-color: var(--clr-sacramento-state-green);
+  color: var(--clr-white);
+}

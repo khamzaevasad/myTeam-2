@@ -1,0 +1,31 @@
+.cta {
+  position: relative;
+  background-color: var(--clr-light-coral);
+  padding-top: 7.6rem;
+  padding-bottom: 7.6rem;
+  overflow: hidden;
+  z-index: 1;
+}
+.cta__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cta__title {
+  font-size: var(--fs-h2);
+  color: var(--clr-sacramento-state-green);
+}
+
+.bg__pattern__cta {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.footer {
+  background-color: var(--clr-dark-green);
+  padding-bottom: 4.8rem;
+  padding-top: 4.8rem;
+}
