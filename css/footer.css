@@ -24,14 +24,12 @@
   z-index: 0;
 }
 
-/* Footer asosiy blok */
 .footer {
   background-color: var(--clr-dark-green);
   padding: 4.8rem 0;
   color: var(--clr-white);
 }
 
-/* Footer konteyner */
 .footer__container {
   display: flex;
   justify-content: space-between;
@@ -40,7 +38,6 @@
   gap: 4rem;
 }
 
-/* Chap blok (logo + nav + address) */
 .footer__left {
   display: flex;
   flex-direction: row;
@@ -48,14 +45,12 @@
   gap: 10rem;
 }
 
-/* Logo + nav birga */
 .footer__left__item {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-/* Navigatsiya */
 .footer__nav__list {
   display: flex;
   gap: 4rem;
@@ -79,15 +74,17 @@
   color: var(--clr-light-coral);
 }
 
-/* Manzil */
 .footer__adress {
   font-style: normal;
   font-size: var(--fs-body2);
   line-height: var(--lh-h3);
   opacity: 0.6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
 }
 
-/* O‘ng blok (social + copyright) */
 .footer__right {
   display: flex;
   flex-direction: column;
@@ -95,47 +92,12 @@
   gap: 2rem;
 }
 
-/* Ijtimoiy tarmoqlar */
 .social__items {
   display: flex;
   gap: 2rem;
 }
 
-.social__link img {
-  transition: filter 0.3s ease;
-}
-
-.social__link:hover img {
-  filter: brightness(0) saturate(100%) invert(63%) sepia(37%) saturate(337%)
-    hue-rotate(314deg) brightness(96%) contrast(91%);
-}
-
-/* Copyright */
 .footer__subtitle {
   font-size: var(--fs-body2);
   opacity: 0.6;
-}
-
-/* 📱 Responsive */
-@media (max-width: 768px) {
-  .footer__container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer__left,
-  .footer__right {
-    max-width: 100%;
-    align-items: center;
-  }
-
-  .footer__nav__list {
-    flex-direction: column;
-    gap: 1.2rem;
-  }
-
-  .footer__right {
-    align-items: center;
-  }
 }
