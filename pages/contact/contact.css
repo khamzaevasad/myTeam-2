@@ -80,10 +80,10 @@
   border: none;
   background-color: var(--clr-white);
   color: var(--clr-dark-green);
+  border: solid 1px var(--clr-white);
 }
 
 .form__btn:hover {
   background-color: var(--clr-midnight-green);
   color: white;
-  border: solid 1px var(--clr-white);
 }

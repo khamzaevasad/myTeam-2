@@ -1,1 +1,89 @@
 @import "./main.css";
+
+.main {
+  margin-top: 1.29rem;
+  margin-bottom: 25rem;
+}
+.main__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.main__title__box {
+  flex: 1;
+}
+.main__title {
+  font-size: 10rem;
+  line-height: normal;
+}
+.main__title_highlight {
+  color: var(--clr-light-coral);
+}
+.main__desk__box {
+  flex: 1;
+  padding-top: 8.3rem;
+}
+.main__desk {
+  font-size: var(--fs-body1);
+}
+
+/* benefits */
+
+.benefits {
+  background-color: var(--clr-sacramento-state-green);
+  margin-top: 19.8rem;
+  margin-bottom: 14rem;
+}
+
+.benefits__container {
+  display: flex;
+  align-items: flex-start;
+  gap: 5rem;
+}
+
+.benefits__title__box {
+  flex: 1;
+}
+
+.benefits__heading {
+  font-size: var(--fs-h2);
+  line-height: normal;
+}
+
+.benefits__info_box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.benefits__items {
+  display: flex;
+  align-items: center;
+  gap: 2.3rem;
+}
+
+.benefits__icon {
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+}
+
+.benefits__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits__title {
+  font-size: var(--fs-h3);
+  line-height: var(--lh-body2);
+  color: var(--clr-light-coral);
+}
+
+.benefits__desc {
+  font-size: var(--fs-body2);
+  line-height: var(--lh-body2);
+  opacity: 0.8;
+}
