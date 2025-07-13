@@ -1,1 +1,63 @@
 @import "../../css/main.css";
+
+.about {
+  background-image: url("../../assets/pt-about.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+.about__container {
+  display: flex;
+}
+
+.about__title__box {
+  flex: 1;
+}
+.about__title {
+  font-size: var(--fs-h1-small);
+  line-height: 10rem;
+  font-size: 700;
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+}
+.about__description__box {
+  flex: 2;
+  max-width: 100%;
+  width: 730px;
+}
+
+.red__line {
+  width: 50px;
+  height: 4px;
+  background-color: var(--clr-light-coral);
+  margin-bottom: 0.4rem;
+}
+.about__description {
+  line-height: 2.8rem;
+  font-size: var(--fs-h3);
+  text-align: justify;
+}
+
+/* clients */
+
+.client {
+  background-image: url("../../assets/bg-pattern-about-4.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: var(--clr-sacramento-state-green);
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+
+.client__title {
+  text-align: center;
+  line-height: normal;
+  font-size: var(--fs-h2);
+}
+.client__logo__box {
+  display: flex;
+  gap: 8rem;
+  padding-top: 7rem;
+}
