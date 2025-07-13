@@ -10,6 +10,14 @@
 .site__logo {
   margin-right: 8rem;
 }
+.site__logo:hover {
+  opacity: 0.8;
+}
+
+.site__logo:active {
+  opacity: 0.6;
+}
+
 .sitenav {
   margin-right: auto;
 }
@@ -22,6 +30,7 @@
   color: inherit;
   transition: 0.5s;
 }
+
 .sitenav__link:hover {
   color: var(--clr-light-coral);
 }

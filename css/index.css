@@ -33,8 +33,8 @@
 
 .benefits {
   background-color: var(--clr-sacramento-state-green);
-  margin-top: 19.8rem;
-  margin-bottom: 14rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
 }
 
 .benefits__container {
