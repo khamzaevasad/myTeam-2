@@ -87,3 +87,60 @@
   line-height: var(--lh-body2);
   opacity: 0.8;
 }
+
+/* testemonials */
+
+.testemonials {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  background-image: url("../assets/bg-pattern-home-4-about-3.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.testemonials__container {
+}
+
+.testemonials__title {
+  font-size: 4.8rem;
+  width: 100%;
+  max-width: 932px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: normal;
+  margin-bottom: 5.6rem;
+}
+
+.testemonials__list {
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  gap: 3rem;
+}
+.testimonials__item {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/icon-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 3.3rem;
+}
+.testimonailas__description {
+  margin-bottom: 2.4rem;
+}
+.testimonials__name {
+  margin: 0;
+  padding: 0;
+  color: var(--clr-rapture-blue);
+}
+.testemonials__positon {
+  margin-bottom: 3rem;
+  font-style: italic;
+  font-weight: 400;
+}
+.testemonials__avatar {
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  border: solid 2px #c4fffe;
+}

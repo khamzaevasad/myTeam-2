@@ -1,0 +1,25 @@
+{
+  "testemonials": [
+    {
+      "id": 1,
+      "name": "Kady Baker",
+      "position": "Product Manager at Bookmark",
+      "description": "“We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!”",
+      "avatar": "./assets/avatar-kady.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Aiysha Reese",
+      "position": "Founder of Manage",
+      "description": "We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!",
+      "avatar": "./assets/avatar-aiysha.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Arthur Clarke",
+      "position": "Co-founder of MyPhysio",
+      "description": "Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.",
+      "avatar": "./assets/avatar-arthur.jpg"
+    }
+  ]
+}

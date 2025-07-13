@@ -121,6 +121,37 @@
       </div>
     </section>
 
+    <section class="testemonials">
+      <div class="testemonials__container container">
+        <h2 class="testemonials__title">
+          Delivering real results for top companies. Some of our
+          <span class="blue-text">success stories.</span>
+        </h2>
+        <ul class="testemonials__list" id="testemonials__list"></ul>
+        <div class="loading__box hidden">
+          <div class="loader hidden"></div>
+        </div>
+        <template id="testemonials-template">
+          <li class="testimonials__item">
+            <p class="testimonailas__description">
+              “The team perfectly fit the specialized skill set required. They
+              focused on the most essential features helping us launch the
+              platform eight months faster than planned.”
+            </p>
+            <h3 class="testimonials__name">Kady Baker</h3>
+            <p class="testemonials__positon">Product Manager at Bookmark</p>
+            <img
+              class="testemonials__avatar"
+              src="https://placehold.co/60"
+              alt=""
+              width="64"
+              height="64"
+            />
+          </li>
+        </template>
+      </div>
+    </section>
+
     <!-- MAIN END-->
     <!-- FOOTER START -->
 
@@ -194,7 +225,7 @@
               </a>
             </div>
             <p class="footer__social__copyright__text">
-              Copyright 2020. All Rights Reserved
+              Copyright <span id="current__year"></span>. All Rights Reserved
             </p>
           </div>
         </div>

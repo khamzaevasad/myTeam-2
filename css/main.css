@@ -3,12 +3,18 @@
 @import "./fonts.css";
 @import "./header.css";
 @import "./footer.css";
+@import "./loader.css";
 
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+*:focus {
+  outline: 2px dotted var(--clr-rapture-blue);
+  outline-offset: 3px;
 }
 
 html {
@@ -86,4 +92,18 @@ h1 {
 .dark__btn:hover {
   background-color: var(--clr-sacramento-state-green);
   color: var(--clr-white);
+}
+
+.blue-text {
+  color: var(--clr-rapture-blue);
+}
+
+.hidden {
+  display: none;
+}
+
+.loading__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
