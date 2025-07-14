@@ -60,6 +60,37 @@
         </div>
       </section>
 
+      <section class="directory">
+        <div class="directory__container container">
+          <h3 class="directory__title">Meet the directors</h3>
+
+          <div class="cards__container" id="cards__container"></div>
+          <div class="loading__box hidden">
+            <div class="loader hidden"></div>
+          </div>
+          <template id="cards__template">
+            <div class="directory__card">
+              <img
+                class="directory__img"
+                src="https://placehold.co/96"
+                alt="directors-img"
+              />
+              <div class="directory__description">
+                <p class="directory__name">Nikita Marks</p>
+                <p class="directory__position">Co-founder & CEO</p>
+              </div>
+              <div class="directory__more">
+                <img
+                  class="coress__icon"
+                  src="../../assets/icon-cross.svg"
+                  alt="cross-icon"
+                />
+              </div>
+            </div>
+          </template>
+        </div>
+      </section>
+
       <section class="client">
         <div class="client__container container">
           <h2 class="client__title">Some of our clients</h2>
@@ -196,5 +227,6 @@
       </div>
     </footer>
     <!-- FOOTER END -->
+    <script src="../../js/index.js"></script>
   </body>
 </html>
