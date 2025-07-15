@@ -23,43 +23,41 @@
     }
   ],
   "directory": [
-    [
-      {
-        "id": 1,
-        "name": "Nikita Marks",
-        "position": "Founder & CEO",
-        "avatar": "nikita-marks.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Cristian Duncan",
-        "position": "Co-founder & COO",
-        "avatar": "cristian-duncan.jpg"
-      },
-      {
-        "id": 3,
-        "name": "Cruz Hamer",
-        "position": "Co-founder & CTO",
-        "avatar": "cruz-hamer.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Drake Heaton",
-        "position": "Business Development Lead",
-        "avatar": "drake-heaton.jpg"
-      },
-      {
-        "id": 5,
-        "name": "Griffin Wise",
-        "position": "Lead Marketing",
-        "avatar": "griffin-wise.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Griffin Wise",
-        "position": "Lead Marketing",
-        "avatar": "griffin-wise.jpg"
-      }
-    ]
+    {
+      "avatar": "../../assets/avatar-nikita.jpg",
+      "name": "Nikita Marks",
+      "position": "Founder & CEO",
+      "id": 1
+    },
+    {
+      "avatar": "../../assets/avatar-christian.jpg",
+      "name": "Cristian Duncan",
+      "position": "Co-founder & COO",
+      "id": 2
+    },
+    {
+      "avatar": "../../assets/avatar-cruz.jpg",
+      "name": "Cruz Hamer",
+      "position": "Co-founder & CTO",
+      "id": 3
+    },
+    {
+      "avatar": "../../assets/avatar-drake.jpg",
+      "name": "Drake Heaton",
+      "position": "Business Development Lead",
+      "id": 4
+    },
+    {
+      "avatar": "../../assets/avatar-griffin.jpg",
+      "name": "Griffin Wise",
+      "position": "Lead Marketing",
+      "id": 5
+    },
+    {
+      "avatar": "../../assets/avatar-griffin.jpg",
+      "name": "Griffin Wise",
+      "position": "Lead Marketing",
+      "id": 6
+    }
   ]
 }
