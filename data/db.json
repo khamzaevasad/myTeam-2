@@ -24,39 +24,46 @@
   ],
   "directory": [
     {
+      "type": "profile",
       "avatar": "../../assets/avatar-nikita.jpg",
       "name": "Nikita Marks",
       "position": "Founder & CEO",
       "id": 1
     },
     {
+      "type": "profile",
       "avatar": "../../assets/avatar-christian.jpg",
       "name": "Cristian Duncan",
       "position": "Co-founder & COO",
       "id": 2
     },
     {
+      "type": "profile",
       "avatar": "../../assets/avatar-cruz.jpg",
       "name": "Cruz Hamer",
       "position": "Co-founder & CTO",
       "id": 3
     },
     {
+      "type": "profile",
       "avatar": "../../assets/avatar-drake.jpg",
       "name": "Drake Heaton",
       "position": "Business Development Lead",
       "id": 4
     },
     {
+      "type": "profile",
       "avatar": "../../assets/avatar-griffin.jpg",
       "name": "Griffin Wise",
       "position": "Lead Marketing",
       "id": 5
     },
     {
-      "avatar": "../../assets/avatar-griffin.jpg",
-      "name": "Griffin Wise",
-      "position": "Lead Marketing",
+      "type": "quote",
+      "name": "Aden Allan",
+      "description": "Empowered teams create truly amazing products. Set the north star and let them follow it.",
+      "twitter": "#",
+      "linkedin": "#",
       "id": 6
     }
   ]

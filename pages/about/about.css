@@ -129,3 +129,58 @@
 .directory__more:hover {
   background-color: var(--clr-rapture-blue);
 }
+
+.quote__card {
+  width: 350px;
+  max-width: 100%;
+  background-color: var(--clr-sacramento-state-green);
+  padding-top: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote__description {
+  padding-top: 1.6rem;
+  text-align: center;
+}
+.quote__name {
+  font-size: var(--fs-h3);
+  line-height: var(--lh-body2);
+  color: var(--clr-rapture-blue);
+}
+
+.quote__quote {
+  font-size: var(--fs-body2);
+  line-height: 2.5rem;
+  margin-bottom: 4.4rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+}
+
+.quote__social {
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.quote__more {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--clr-rapture-blue);
+  margin-bottom: -2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.quote__more:hover {
+  background-color: var(--clr-light-coral);
+}
+
+.quote__icon {
+  transform: rotate(45deg);
+}
