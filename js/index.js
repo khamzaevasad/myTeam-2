@@ -45,7 +45,16 @@ function updateUI(directory) {
   });
 }
 
+function loading(status = false) {
+  if (status) {
+    document.querySelector(".loader").classList.remove("hidden");
+  } else {
+    document.querySelector(".loader").classList.add("hidden");
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  loading(true);
   fetch("http://localhost:3000/directory")
     .then((data) => {
       return data.json();
@@ -55,5 +64,8 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch((error) => {
       console.log(error);
+    })
+    .finally(() => {
+      loading(false);
     });
 });
